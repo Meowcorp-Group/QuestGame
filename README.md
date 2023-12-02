@@ -9,9 +9,9 @@ this is a role-playing game, we don't know what it will be about yet
 we were bored one day and through some [inspiration](https://develop.games/) we decided to make a game
 
 ## Who?
-- Programmer: @Waoweens, @sitasreturn
-- Level Designer: @Waoweens, @sitasreturn
-- Artist: @Skytoon50
+- Programmer: [@Waoweens](https://github.com/Waoweens), [@sitasreturn](https://github.com/sitasreturn)
+- Level Designer: [@Waoweens](https://github.com/Waoweens), [@sitasreturn](https://github.com/sitasreturn)
+- Artist: [@Skytoon50](https://github.com/Skytoon50)
 - Composer: [Vibbrid](https://www.youtube.com/@vibbrid)
 
 ## When?
