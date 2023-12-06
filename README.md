@@ -3,7 +3,7 @@
 > "QuestGame" is a temporary name for this project. Have a suggestion? Open an issue!
 
 ## What?
-this is a role-playing game, we don't know what it will be about yet
+this is a game, we don't know what it will be about yet
 
 ## Why?
 we were bored one day and through some [inspiration](https://develop.games/) we decided to make a game
