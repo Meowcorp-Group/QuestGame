@@ -21,7 +21,7 @@ TBA
 TBA
 
 ## How?
-- Engine: [Godot](https://godotengine.org/)
+See [Game Design Document](https://github.com/Meowcorp-Group/QuestGame/wiki/Game-Design-Document)
 
 ## Building
 Open this project in Godot Editor and follow the [export instructions](https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html)
