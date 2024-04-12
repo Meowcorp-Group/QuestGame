@@ -1,0 +1,17 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://cc0f7adx2sj0k"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xy8uo"]
+draw_center = false
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.972549, 0.768627, 0.223529, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[resource]
+Button/styles/disabled = null
+Button/styles/focus = SubResource("StyleBoxFlat_xy8uo")
