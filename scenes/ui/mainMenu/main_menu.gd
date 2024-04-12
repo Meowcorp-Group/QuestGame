@@ -16,4 +16,4 @@ func _on_button_exit_pressed():
 
 
 func _on_button_options_pressed():
-	SceneManager.switch_scene("res://scenes/ui/options_menu.tscn")
+	SceneManager.switch_scene("res://scenes/ui/options/options_menu.tscn")

@@ -1,0 +1,58 @@
+[gd_scene load_steps=5 format=3 uid="uid://b3ongt2d2l8sf"]
+
+[ext_resource type="Script" path="res://scenes/ui/mainMenu/main_menu.gd" id="1_olbpe"]
+[ext_resource type="Theme" uid="uid://cc0f7adx2sj0k" path="res://scenes/ui/menu.tres" id="1_u5782"]
+[ext_resource type="Script" path="res://scenes/ui/mainMenu/ButtonPlay.gd" id="2_fwdfk"]
+
+[sub_resource type="GDScript" id="GDScript_fwa12"]
+script/source = "extends Button
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+"
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_u5782")
+script = ExtResource("1_olbpe")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+offset_left = 64.0
+offset_top = 256.0
+offset_right = 256.0
+offset_bottom = 416.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="ButtonPlay" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 48)
+layout_mode = 2
+text = "Play"
+script = ExtResource("2_fwdfk")
+
+[node name="ButtonOptions" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 48)
+layout_mode = 2
+text = "Options"
+
+[node name="ButtonExit" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 48)
+layout_mode = 2
+text = "Exit"
+script = SubResource("GDScript_fwa12")
+
+[connection signal="pressed" from="VBoxContainer/ButtonOptions" to="." method="_on_button_options_pressed"]
+[connection signal="pressed" from="VBoxContainer/ButtonExit" to="." method="_on_button_exit_pressed"]
