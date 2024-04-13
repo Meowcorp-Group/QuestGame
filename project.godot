@@ -20,6 +20,7 @@ config/icon="res://icon.svg"
 WindowManager="*res://scenes/autoload/window_manager.gd"
 SceneManager="*res://scenes/autoload/scene_manager.gd"
 ConfigManager="*res://scenes/autoload/config_manager.gd"
+DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
 
 [display]
 
@@ -27,6 +28,10 @@ window/size/viewport_width=640
 window/size/viewport_height=480
 window/stretch/mode="viewport"
 mouse_cursor/custom_image="res://assets/cursor-01.png"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
 
 [input]
 
@@ -38,3 +43,7 @@ ui_accept={
 , Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"button_index":0,"pressure":0.0,"pressed":true,"script":null)
 ]
 }
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
