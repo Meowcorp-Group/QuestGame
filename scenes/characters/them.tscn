@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://b5ncmmtnoevmk"]
+
+[ext_resource type="Script" path="res://scenes/characters/them.gd" id="1_dlm3g"]
+[ext_resource type="Texture2D" uid="uid://o8rwmcg0or4f" path="res://assets/sprite_r2_0001.png" id="1_fub8h"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_b4kxb"]
+radius = 32.0
+height = 144.0
+
+[node name="Them" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_dlm3g")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_b4kxb")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
+texture = ExtResource("1_fub8h")
