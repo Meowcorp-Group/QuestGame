@@ -1,0 +1,33 @@
+~ sign_left
+
+SIGN: Boy oh boy where do I even begin.
+SIGN: Lebron… honey, my pookie bear.
+SIGN: I have loved you ever since I first laid eyes on you.
+SIGN: The way you drive into the paint and strike fear into your enemies eyes.
+SIGN: Your silky smooth touch around the rim, and that gorgeous jumpshot.
+SIGN: I would do anything for you.
+SIGN: I wish it were possible to freeze time so I would never have to watch you retire.
+SIGN: You had a rough childhood, but you never gave up hope.
+SIGN: You are even amazing off the court, you’re a great husband and father, sometimes I even call you dad.
+SIGN: I forvever dread and weep, thinking of the day you will one day retire.
+SIGN: I would sacrifice my own life it were the only thing that could put a smile on your beautiful face.
+SIGN: You have given me so much joy, and heartbreak over the years.
+SIGN: I remember when you first left clevenland and its like my heart got broken into a million pieces.
+SIGN: But a tear still fell from my right eye when I watched you win your first ring in miami, because deep down, my glorious king deserved it.
+SIGN: I just wanted you to return home.
+SIGN: Then allas, you did, my sweet baby boy came home and I rejoiced.
+SIGN: 2015 was a hard year for us baby, but in 2016 you made history happen.
+SIGN: You came back from 3-1 and I couldn’t believe it.
+SIGN: I was crying, bawling even, and I heard my glorious king exclaim these words, “CLEVELAND, THIS IS FOR YOU!”
+SIGN: Not only have you changed the game of basketball and the world forever, but you’ve eternally changed my world.
+SIGN: And now you’re getting older, but still the goat, my goat.
+SIGN: I love you pookie bear, my glorious king, Lebron James. 😊❤️🫶🏼
+
+You notice a marker attached to the sign.
+Pick it up and write something?
+- Yes
+	You try to write the first thing on your mind.
+	The marker is completely dry.
+- No => END
+
+=> END
