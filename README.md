@@ -11,7 +11,7 @@ we were bored one day and through some [inspiration](https://develop.games/) we 
 ## Who?
 - Programmer: [@Waoweens](https://github.com/Waoweens), [@sitasreturn](https://github.com/sitasreturn)
 - Level Designer: [@Waoweens](https://github.com/Waoweens), [@sitasreturn](https://github.com/sitasreturn)
-- Artist: [@Skytoon50](https://github.com/Skytoon50)
+- Artists: [@Skytoon50](https://github.com/Skytoon50), [@sitasreturn](https://github.com/sitasreturn)
 - Composer: [Vibbrid](https://www.youtube.com/@vibbrid)
 
 ## When?
